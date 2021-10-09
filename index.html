@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section id="take">
+        <h2>Todo list</h2>
+        <div>
+            <input type="text" placeholder="Heading" id="heading">
+            <textarea placeholder="Detail" id="textArea"></textarea>
+            <p id="msg">Please enter heading.</p>
+            <button id="btn">Add</button>
+        </div>
+
+    </section>
+    <hr>
+    <section id="store">
+        <h1>My Lists</h1>
+        <hr>
+        <br>
+        <div id="data">
+            <div id="idNam1" class="classDivs">
+                <h3>my todo list 
+                    <span class="spans" id="delSpan1">
+                        <i class="far fa-trash-alt"></i>
+                    </span>
+                    <span class="comp" id="compSpan1">
+                        <i class="far fa-check-circle"></i>
+                    </span>
+                </h3>
+                <p>My todo list details are here.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

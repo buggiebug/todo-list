@@ -1,0 +1,156 @@
+::-webkit-scrollbar{
+  width: 0px;
+  background-color: #00fd00;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+body hr {
+  margin-top: 15px;
+  border-color: coral;
+}
+#take {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#take h2 {
+  margin-bottom: 20px;
+  background-color: red;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+#take div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#heading {
+  border: 2px solid white;
+  padding: 7px 10px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 7px;
+  background-color: transparent;
+  color: white;
+  width: 50vw;
+}
+#btn {
+  padding: 5px 18px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#textArea {
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 0px;
+  padding: 10px 8px;
+  min-width: 50vw;
+  max-width: 80vw;
+  min-height: 30vh;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  margin-top: 10px;
+}
+#take p {
+  visibility: hidden;
+  margin: 10px 0px;
+  color: #ff3535;
+}
+
+/* Data store section is here... */
+#store {
+  border-radius: 4px;
+  padding: 28px 8px;
+  padding-top: 0;
+}
+#store h1 {
+  text-align: center;
+  margin: 20px 0px;
+  color: #f9fd3e;
+  font-family: system-ui;
+}
+#store hr {
+  border-color: #320540;
+}
+#data {
+  /* border: 2px solid rgb(49, 146, 163); */
+  padding-top: 10px;
+  border-radius: 2px;
+}
+#data div h3 {
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  color: springgreen;
+}
+#data p {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(49, 146, 163);
+  padding-bottom: 10px;
+  padding-left: 25px;
+  color: #00daff;
+}
+#data h3 span {
+  font-size: 15px;
+  position: relative;
+  float: right;
+  right: 20px;
+  top: -1px;
+  padding: 1px 4px;
+  border-radius: 20px;
+  color: #f80b0b;
+}
+#data h3 span:hover {
+  background-color: black;
+  color: rgb(70, 2, 2);
+  cursor: pointer;
+}
+#data h3 .comp {
+  color: #00fd00;
+  margin-right: 10px;
+}
+#data h3 .comp:hover {
+  color: #0a3302;
+}
+
+@media only screen and (max-width: 600px) {
+  #heading {
+    border: 2px solid white;
+    padding: 7px 10px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 7px;
+    background-color: transparent;
+    color: white;
+  }
+  #textArea {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 10px 8px;
+    min-width: 50vw;
+    max-width: 80vw;
+    min-height: 30vh;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    margin-top: 10px;
+  }
+}
